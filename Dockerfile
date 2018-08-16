@@ -1,4 +1,4 @@
-FROM golang:1.11beta3-alpine
+FROM golang:1.11rc1
 
 # Copy the code from the host and compile it
 WORKDIR $GOPATH/src/play-wasm
